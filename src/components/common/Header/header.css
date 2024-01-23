@@ -1,0 +1,31 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+}
+.wrapper {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+
+.header {
+  width: 1500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+.nav ,
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+
+}
+.nav a{
+ color: aliceblue;
+ background-color: black;
+}
